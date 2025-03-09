@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   vote:
-    image: tecengineer/vote:v1
+    build: .
     ports:
       - "80:80" # Adjust ports as needed
     restart: always
